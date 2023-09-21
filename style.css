@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: 0; 
+    font-family:'Courier New', Courier, monospace; 
+     background-image: linear-gradient(to right,  rgb(98, 50, 187), rgb(183, 158, 216));
+
+}
+
+.container {
+    height: 100vh; 
+    width: 100%;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    padding: 50px 20px 100px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.about {
+    border-style: solid;
+    border-color: rgb(177, 103, 181);
+
+    border-width: 3px;
+    border-radius: 5px; 
+    
+    
+}
+
+.projects {
+    border-style: solid;
+    border-color: rgb(177, 103, 181);
+
+    border-width: 3px;
+    border-radius: 5px; 
+}
+
+.Tech {
+    border-style: solid;
+    border-color: rgb(177, 103, 181);
+
+    border-width: 3px;
+    border-radius: 5px; 
+}
+
+.Contact {
+    border-style: solid;
+    border-color: rgb(177, 103, 181);
+
+    border-width: 3px;
+    border-radius: 5px; 
+}
+
