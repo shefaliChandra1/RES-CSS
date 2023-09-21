@@ -12,8 +12,7 @@
     width: 100%;
     position: relative;
     width: 75%;
-    margin: auto;
-    padding: 50px 20px 100px 20px;
+    padding: 50px 0px 100px 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -21,37 +20,23 @@
     
 }
 
-.about {
-    border-style: solid;
-    border-color: rgb(177, 103, 181);
 
-    border-width: 3px;
-    border-radius: 5px; 
+ul {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto;
+    background-color: blue;
+}
+
+
     
-    
+
+
+p{
+    color: rgb(192, 211, 227);
+    font-weight: 200px;
+    font-family: font-family: 'Nunito', sans-serif;;
 }
-
-.projects {
-    border-style: solid;
-    border-color: rgb(177, 103, 181);
-
-    border-width: 3px;
-    border-radius: 5px; 
-}
-
-.Tech {
-    border-style: solid;
-    border-color: rgb(177, 103, 181);
-
-    border-width: 3px;
-    border-radius: 5px; 
-}
-
-.Contact {
-    border-style: solid;
-    border-color: rgb(177, 103, 181);
-
-    border-width: 3px;
-    border-radius: 5px; 
-}
-
